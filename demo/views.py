@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.db.models import *
 from demo.models import *
 
+
 # Create your views here.
 def query(request):
     # -- 1、 查询Student表中的所有记录的Sname、Ssex和classno列。
